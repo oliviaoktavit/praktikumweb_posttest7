@@ -1,0 +1,242 @@
+
+.header{
+    background-color: #be8abf;
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+
+
+body {
+    background-color:#f6e9e0
+}
+
+.header-logo{
+    font-size: 25px;
+    float: left;
+    padding: 2px 20px;
+}
+
+.header-list li{
+    float: left;
+    list-style: none;
+    padding-top: 45px;
+    padding-left: 30px ;
+    padding-right: 45px;
+    font-size: 20px;
+}
+.Search1{
+    width: 30%;
+    padding: 10px ;
+    margin: 40px 9px;
+    display: inline-block;                                                              
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header-list > li > :hover{
+    color: antiquewhite;
+
+}
+.li {
+    list-style: none;
+}
+.image0{
+    padding-top: 30px;
+}
+.cate {
+    padding-left: 188px;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.button1{
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    left: 0px;
+    border: 1px;
+    background-color: rgb(255, 249, 249);
+
+
+}
+.button:hover {
+    background-color:#ffa8a8;
+    color:#207cca;
+}
+
+h1{
+    color: #ffa8a8;
+    padding-left: 70px;
+}
+
+h2{
+    color: #ffa8a8;
+}
+
+.kategori {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.card {
+    border: 1px solid #c96c2a;
+    border-radius: 10px;
+    background-color: #cfd9cc;
+    margin: 10px;
+    flex: 1;
+}
+
+.card .header {
+    height: 280px;
+    background-color:#f6e9e0
+}
+.card .content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+h3 {
+    text-align: center;
+}
+
+.content2 {
+    font-size: 20px;
+    background-color: #f6e9e0;
+    padding-left: 10px;
+}
+
+.image1 {
+    border: 1px solid rgb(244, 209, 197);
+    border-radius: 10px;
+    background-color: rgb(239, 225, 230);
+    margin: 10px;
+    flex: 1;
+}
+.content2 {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.font{
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+.font2 {
+    padding-top: 90px;
+    padding-left: 80;
+    padding-right: 90px;
+    font-size: 25px;
+    align-items: center;
+}
+.dl {
+    margin-left: 40%;
+    margin-right: 45%;
+    display: flex;
+    padding-left: 100px; 
+}
+
+#darkmode {
+    background-color: black;
+    color: white;
+    padding: 20px ;
+    /* margin-left: 10px; */
+    
+}
+#lightmode {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    /* margin-right: 10px; */
+}
+.dark{
+    background-color: #be8abf;
+    color: beige;
+}
+.light{
+    background-color: #f6e9e0;
+    color: #ffa8a8;
+}
+
+.sg {
+    width: 80px;
+    margin: 50px auto;
+    display: flex;
+    margin-bottom: 90px;
+    padding-bottom: 100px;
+
+}
+
+/* css form signup */
+
+#fname{
+    /*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+}
+#lname{
+    /*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+}
+
+.form-signup{
+    /*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+.kotak-signup{
+    border-radius: 20px;
+	width: 350px;
+	background: #be8abf;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+.output{
+    border-radius: 20px;
+	width: 350px;
+	background: rgb(148, 0, 57);
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+.tulisan-signup{
+    text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+    font-size: 18px;
+}
+.tombol-signup{
+    background-color:#ffa8a8;
+    color:white;
+    width: 100%;
+    border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+    border: none;
+}
+.Text-login{
+    text-align: center;
+}
